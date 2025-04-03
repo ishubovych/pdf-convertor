@@ -28,7 +28,7 @@ export const PdfViewer = memo(({ document }: PdfViewerProps) => {
   }
 
   if (!data) {
-    return <div className={STYLES.empty}>PDF документ не завантажено</div>;
+    return <div className={STYLES.empty}>PDF документ не завантажено або відсутній</div>;
   }
 
   if (loadingError) {

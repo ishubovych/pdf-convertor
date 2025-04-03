@@ -43,6 +43,7 @@ function App() {
     try {
       await clearHistory();
       setSelectedItem(null);
+      setCurrentPdf(null);
       await loadHistory();
     } catch (err) {
       console.error("Failed to clear history:", err);
