@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+.react-pdf__Page {
+  display: flex;
+  justify-content: center;
+}
